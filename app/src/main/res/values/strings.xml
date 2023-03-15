@@ -10,4 +10,8 @@
     <string name="btnSelectDate">Select Date</string>
     <string name="tvAge">Age</string>
     <string name="tvAgeResult">Waiting for input..</string>
+    <color name="lightpink">#FFC6D3</color>
+    <color name="darkpink">#E98EAD</color>
+    <color name="textcolor">#3A4F7A</color>
+    <color name="subtextcolor">#865DFF</color>
 </resources>
