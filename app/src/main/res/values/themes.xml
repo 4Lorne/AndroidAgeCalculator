@@ -13,6 +13,22 @@
         <item name="android:statusBarColor">@color/lightpink</item>
         <!-- Customize your theme here. -->
         <item name="android:navigationBarColor">@color/lightpink</item>
-
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:calendarViewShown">false</item>
     </style>
+
+    <style name="MaterialCalendarCustomStyle" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <!-- Buttons Color-->
+        <item name="colorPrimary">#FFFFFF</item>
+        <!--Days unselected Text Color and Month Text Color-->
+        <item name="android:textColorPrimary">@color/textcolor</item>
+        <!-- This will change the divider color -->
+        <item name="android:colorControlNormal">@color/darkpink</item>
+        <!--Header Background Color and selected Day Background Color-->
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <!--Month Background Color-->
+        <item name="colorSurface">@color/lightpink</item>
+        <item name="android:datePickerStyle">@style/Widget.AppCompat.Spinner</item>
+    </style>
+
 </resources>
