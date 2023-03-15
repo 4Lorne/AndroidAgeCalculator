@@ -76,7 +76,8 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     public void setCalcAge(){
         try {
             Period p = Period.between(dob,date);
-            tvAgeResult.setText(String.valueOf(p.getYears()));
+            String age = p.getYears() +" Years " + String.valueOf(p.getMonths()) + " Months";
+            tvAgeResult.setText(age);
         } catch (Exception e) {
             Toast.makeText(this,"Both dates must be selected",Toast.LENGTH_SHORT).show();
         }
