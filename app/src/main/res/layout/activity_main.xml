@@ -9,12 +9,12 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="@string/tvTitle"
-        android:textColor="@color/textcolor"
         android:textAlignment="center"
+        android:textColor="@color/textcolor"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -25,6 +25,7 @@
         android:id="@+id/btnCalcAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
         android:layout_marginBottom="75dp"
         android:background="@drawable/round_button"
         android:text="@string/btnCalcAge"
@@ -37,23 +38,24 @@
 
     <TextView
         android:id="@+id/tvAge"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/tvAge"
+        android:textAlignment="center"
         android:textColor="@color/subtextcolor"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnDate" />
 
     <TextView
         android:id="@+id/tvDOB"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/tvDOB"
+        android:textAlignment="center"
         android:textColor="@color/subtextcolor"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,10 +65,11 @@
 
     <TextView
         android:id="@+id/tvDOBResult"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/tvDOBSelection"
+        android:textAlignment="center"
         android:textColor="@color/textcolor"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,10 +78,11 @@
 
     <TextView
         android:id="@+id/tvDateSelection"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/tvDateSelection"
+        android:textAlignment="center"
         android:textColor="@color/textcolor"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,10 +94,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:onClick="DateDialog"
         android:background="@drawable/round_button"
-        app:backgroundTint="@color/darkpink"
+        android:onClick="DateDialog"
         android:text="@string/btnSelectDate"
+        app:backgroundTint="@color/darkpink"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,10 +105,11 @@
 
     <TextView
         android:id="@+id/tvDate"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/tvDate"
+        android:textAlignment="center"
         android:textColor="@color/subtextcolor"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,10 +118,11 @@
 
     <TextView
         android:id="@+id/tvAgeResult"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/tvAgeResult"
+        android:textAlignment="center"
         android:textColor="@color/textcolor"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
