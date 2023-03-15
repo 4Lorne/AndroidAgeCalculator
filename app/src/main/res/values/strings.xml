@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AgeCalculator</string>
+    <string name="btnCalcAge">Calculate Age</string>
+    <string name="tvTitle">Katelyn\'s Age Calculator</string>
+    <string name="tvDOB">Date of Birth</string>
+    <string name="tvDOBSelection">Waiting for input..</string>
+    <string name="tvDate">Age at the date of</string>
+    <string name="tvDateSelection">Waiting for input..</string>
+    <string name="btnSelectDOB">Select DOB</string>
+    <string name="btnSelectDate">Select Date</string>
+    <string name="tvAge">Age</string>
+    <string name="tvAgeResult">Waiting for input..</string>
+</resources>
